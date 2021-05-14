@@ -15,7 +15,6 @@ public interface CoinsView extends MvpView {
     @StateStrategyType(AddToEndSingleStrategy.class)
     void setData(List<Coin> data);
 
-
     @StateStrategyType(AddToEndSingleStrategy.class)
     void addData(List<Coin> data);
 

@@ -123,6 +123,7 @@ public class CoinsAdapter extends RecyclerView.Adapter<CoinsAdapter.ViewHolder> 
             }
         }
 
+        //formatting a number to represent thousands / millions / billions
         @SuppressLint("DefaultLocale")
         public String getHumanReadablePriceFromNumber(Double number){
             if(number >= 1000000000){

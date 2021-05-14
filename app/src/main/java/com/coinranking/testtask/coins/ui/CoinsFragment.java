@@ -92,6 +92,7 @@ public class CoinsFragment extends MvpAppCompatFragment implements CoinsView {
                 int visibleItemCount = recyclerView.getLayoutManager().getChildCount();
                 int totalItemCount = recyclerView.getLayoutManager().getItemCount();
                 int firstVisibleItemPosition = manager.findFirstCompletelyVisibleItemPosition();
+                //If we see the last element, load more data
                 if ((visibleItemCount + firstVisibleItemPosition) >= totalItemCount
                         && firstVisibleItemPosition >= 0
                         && totalItemCount >= PAGE_SIZE && !mCoinsPresenter.isLoadData()) {
