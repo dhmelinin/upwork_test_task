@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="number_coins">1</string>
+    <string name="coin_full_name">Bitcoin</string>
+    <string name="coin_short_name">BTC</string>
+    <string name="coin_percent">+112.25%</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="price">Price</string>
+    <string name="hours">24h</string>
+    <string name="masterCap">Master Cap</string>
+</resources>
